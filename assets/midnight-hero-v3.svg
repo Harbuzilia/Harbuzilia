@@ -1,0 +1,89 @@
+<svg width="1400" height="460" viewBox="0 0 1400 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Midnight synthwave highway">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070b19"/>
+      <stop offset="38%" stop-color="#1d1a4d"/>
+      <stop offset="100%" stop-color="#311246"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe3ad"/>
+      <stop offset="55%" stop-color="#ff9f8f"/>
+      <stop offset="100%" stop-color="#ff58b2"/>
+    </radialGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff71c7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ff71c7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1238"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#45d9ff"/>
+      <stop offset="50%" stop-color="#9b84ff"/>
+      <stop offset="100%" stop-color="#ff5db2"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="1400" height="460" fill="url(#sky)"/>
+
+  <g opacity="0.7">
+    <circle cx="180" cy="70" r="1.8" fill="#e8f4ff"/>
+    <circle cx="260" cy="52" r="1.3" fill="#e8f4ff"/>
+    <circle cx="1160" cy="58" r="1.7" fill="#e8f4ff"/>
+    <circle cx="1230" cy="76" r="1.4" fill="#e8f4ff"/>
+    <circle cx="1080" cy="42" r="1.2" fill="#e8f4ff"/>
+    <circle cx="330" cy="88" r="1.5" fill="#e8f4ff"/>
+  </g>
+
+  <ellipse cx="700" cy="220" rx="360" ry="46" fill="url(#haze)" filter="url(#blur)"/>
+  <circle cx="700" cy="195" r="90" fill="url(#sun)"/>
+  <g stroke="#ff9ad0" stroke-width="3" opacity="0.45">
+    <line x1="610" y1="150" x2="790" y2="150"/>
+    <line x1="595" y1="168" x2="805" y2="168"/>
+    <line x1="588" y1="186" x2="812" y2="186"/>
+    <line x1="595" y1="204" x2="805" y2="204"/>
+    <line x1="610" y1="222" x2="790" y2="222"/>
+  </g>
+
+  <path d="M0 296 L240 244 L430 266 L700 226 L950 268 L1140 242 L1400 298 L1400 460 L0 460 Z" fill="#0f0d2c"/>
+  <path d="M0 332 L260 288 L450 310 L700 272 L950 310 L1140 286 L1400 332 L1400 460 L0 460 Z" fill="#12103b"/>
+
+  <path d="M560 460 L655 266 L745 266 L840 460 Z" fill="url(#road)"/>
+  <g stroke="url(#grid)" stroke-width="1.4" opacity="0.38">
+    <line x1="0" y1="352" x2="1400" y2="352"/>
+    <line x1="0" y1="375" x2="1400" y2="375"/>
+    <line x1="0" y1="398" x2="1400" y2="398"/>
+    <line x1="0" y1="421" x2="1400" y2="421"/>
+  </g>
+  <g stroke="url(#grid)" stroke-width="1.2" opacity="0.32">
+    <line x1="700" y1="266" x2="500" y2="460"/>
+    <line x1="700" y1="266" x2="560" y2="460"/>
+    <line x1="700" y1="266" x2="620" y2="460"/>
+    <line x1="700" y1="266" x2="780" y2="460"/>
+    <line x1="700" y1="266" x2="840" y2="460"/>
+    <line x1="700" y1="266" x2="900" y2="460"/>
+  </g>
+
+  <path d="M692 460 L700 332 L708 460 Z" fill="#ffd16f" opacity="0.95"/>
+
+  <g fill="#05070d" opacity="0.98">
+    <path d="M648 378 L676 378 L686 397 L638 397 Z"/>
+    <path d="M676 378 L724 378 L728 406 L672 406 Z"/>
+    <path d="M724 378 L752 378 L762 397 L714 397 Z"/>
+    <rect x="658" y="369" width="84" height="9" rx="2"/>
+    <rect x="666" y="391" width="10" height="10" rx="2"/>
+    <rect x="724" y="391" width="10" height="10" rx="2"/>
+  </g>
+
+  <g stroke="#63dcff" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <path d="M90 348 C90 310 108 276 136 250"/>
+    <path d="M108 347 C112 316 127 288 150 265"/>
+    <path d="M1310 348 C1310 310 1292 276 1264 250"/>
+    <path d="M1292 347 C1288 316 1273 288 1250 265"/>
+  </g>
+
+  <text x="700" y="82" text-anchor="middle" fill="#e8f3ff" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Harbuzilia</text>
+  <text x="700" y="116" text-anchor="middle" fill="#bcd1ff" font-family="Segoe UI, Arial, sans-serif" font-size="19">Backend Engineer • Automation • AI Integration</text>
+</svg>
